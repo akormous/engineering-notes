@@ -4,7 +4,7 @@ title: Akshat Chauhan's notes
 
 Hola amigo,
 
-I am a programmer by profession and I love making notes of whatever I learn. So, this website is just a collection of my notes. You are welcome to suggest changes / report errors by creating an issue in this GitHub repo.
+I am a programmer by profession and I love making notes of whatever I learn. So, this website is just a collection of my notes. You are welcome to suggest changes / report errors by creating an issue in [this GitHub repo](https://github.com/akormous/engineering-notes/issues/new).
 
 Thanks!<br/>
 [Akshat Chauhan](https://twitter.com/akormous)
