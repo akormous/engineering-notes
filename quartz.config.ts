@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://akormous.pages.dev/",
     ignorePatterns: ["private", "templates"],
     defaultDateType: "created",
     theme: {
