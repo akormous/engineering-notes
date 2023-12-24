@@ -1,5 +1,5 @@
 ---
-title: Akshat Chauhan's notes
+title: Big Brain Coding notes
 ---
 
 Hola amigo,

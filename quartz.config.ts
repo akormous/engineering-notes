@@ -3,19 +3,19 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🐙 AC",
+    pageTitle: "🐙 Big Brain Coding",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "https://akormous.pages.dev/",
+    baseUrl: "https://bigbraincoding.pages.dev/",
     ignorePatterns: ["private", "templates"],
     defaultDateType: "created",
     theme: {
       typography: {
         header: "Red Hat Display",
-        body: "Source Sans Pro",
+        body: "Manrope",
         code: "IBM Plex Mono",
       },
       colors: {
