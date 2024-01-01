@@ -10,12 +10,23 @@ Thanks!<br/>
 [Akshat Chauhan](https://twitter.com/akormous)
 
 
-## Featured
+## Index
 
 - [API 101](./API101/Introduction.md)
-- [React](./React/Introduction.md)
-- [Microservices](./Microservices/Introduction.md)
+- [CMake](./CMake/Introduction.md)
+- [Design Patterns](./Design%20Patterns/Design%20Patterns.md)
 - [DevOps](./DevOps/Introduction.md)
+- [DSA](./DSA/Dynamic%20Programming.md)
+- [Git](./Git/Introduction.md)
+- [Go](./Go/Introduction.md)
+- [HTTP](./HTTP/Introduction.md)
+- [JWT 101](./JWT101/Introduction.md)
+- [Microservices](./Microservices/Introduction.md)
+- [MongoDB](./MongoDB/Introduction.md)
+- [Networks](./Networks/nginx.md)
+- [Protocol Buffers](./ProtocolBuffers/Introduction.md)
+- [React](./React/Introduction.md)
+- [Spring Boot](./SpringBoot/Introduction.md)
 - [System Design](./SystemDesign/Introduction.md)
 
 ## Other featured GitHub repos
