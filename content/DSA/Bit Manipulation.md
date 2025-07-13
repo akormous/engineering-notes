@@ -28,6 +28,7 @@ DISCLAIMER: If you don't know what a binary number is, then don't read the rest 
 - A positive number is represented as itself while a negative number is represented as the 2s complement of its absolute value, with a 1 in its sign bit to indicate that a negative value
 - In simple words, the binary representation of `-K` as a N-bit number is `concat(1, 2^(N-1) - K)`
 - More simpler words, invert the bits in the positive representation and then add 1
+- More more simpler words, find the rightmost 1 bit and from that, invert all of the other bits to the left of that rightmost 1 bit
 - Example: +7 = 0 111
 - Calculating -7 ?
 - Flip the bits of +7 = 000
@@ -39,6 +40,7 @@ DISCLAIMER: If you don't know what a binary number is, then don't read the rest 
 <details>
     <summary>Rules</summary>
 
+`x = 1 bit`
 |Equation|Result|
 | --- | --- |
 |`x ^ 0`|`x`|
@@ -168,6 +170,9 @@ DISCLAIMER: If you don't know what a binary number is, then don't read the rest 
 ```cpp
 
     int clearBitIThrough0(int num, int i) {
+        // -1 = ~0
+        // so the below statement can be
+        // int mask = (~0 << (i + 1));
         int mask = (-1 << (i + 1));
         return num & mask;
     }
@@ -182,9 +187,20 @@ DISCLAIMER: If you don't know what a binary number is, then don't read the rest 
 ```cpp
 
     int updateBit(int num, int i, bool bit) {
+        int clearedNum = clearBit(nums, i);
+        if(bit) {
+            return setBit(nums, i);
+        }
+        return clearedNum;
+    }
+```
+
+```cpp
+
+    int updateBit(int num, int i, bool bit) {
         int val = bit ? 1 : 0;
         int mask = ~(1 << i);
-        return (num & mask) | (value << i);
+        return (num & mask) | (val << i);
     }
 ```
 </details>
