@@ -153,8 +153,39 @@ DISCLAIMER: If you don't know what a tree is, don't read the rest of this page.
 ## Segment Tree
 
 <details>
-    <summary>To be updated</summary>
+    <summary>Representation</summary>
+
+- It is represented as an array
+- Left subtree is stored at `2*idx + 1`
+- Right subtree is stored at `2*idx + 2`
 </details>
+
+<details>
+    <summary>Construction</summary>
+
+- It has 3 methods, `build()`, `update()`, `query()`
+</details>
+
+<details>
+    <summary>Time Complexity</summary>
+
+- `build()` : `O(n)`
+- `update()`: `O(logn)`
+- `query()` : `O(logn)`
+</details>
+
+<details>
+    <summary>Applications</summary>
+
+- To get range sum of an array in `O(logn)` time.
+- Range sum, Range minimum/maximum, Range GCD, etc.
+- You have an array.
+- You want to perform frequent range queries and updates.
+
+</details>
+
+[Segment Tree Implementation](https://github.com/akormous/dsa/blob/master/5_Trees_and_Graphs/SegmentTree.cpp)
+
 
 ## Fenwick Tree / Binary Indexed Tree
 
